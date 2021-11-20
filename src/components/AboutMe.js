@@ -5,7 +5,6 @@ function AboutMe() {
          
 
         <div id="about-me" class="container">
-            <h1 class="center-align purple-text text-darken-3" id="font"> Stevanie Kanter Portfolio </h1>
             <h3 class="center-align purple-text text-darken-3">
             About Me 
             </h3>
