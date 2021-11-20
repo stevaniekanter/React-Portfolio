@@ -1,10 +1,14 @@
 body {
-  background-image: url("assets/image/heading.png");
-  background-color: #cccccc;
+  background-image: url("https://github.com/stevaniekanter/React-Portfolio/blob/main/src/components/assets/image/background.png?raw=true");
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+#font{
+  font-family:'Courier New', Courier, monospace;
+  padding: 30px;
 }
 
 .navbtn {
@@ -23,7 +27,7 @@ body::-webkit-scrollbar {
 }
 
 #banner {
-  padding-top: 20px;
+  padding-top: 5px;
   padding-left: 10px;
 }
 
@@ -32,43 +36,44 @@ body::-webkit-scrollbar {
   padding-bottom: 10px;
 }
 
-.profile-image-2 {
-  display: none;
+#profile {
+  height: 300px;
+  width: 300px;
+  padding: 5px;
+  display: block;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 260px;
 }
 
 #about-me {
   margin-bottom: 100px;
 }
 
-#about-me-card {
+#about-me-1 {
   font-size: 20px;
 }
 
-#about-me-card,
-#profile-image,
+#skill {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+/* #about-me-card,
+#skill-card, */
+#profile,
 .hoverable {
-  border: solid;
-  border-color: #0277bd;
-}
-
-.bio {
-  margin: 30px
-}
-
-.skills {
-  margin: 0px 30px 30px
-  30px;
+  border: double;
+  border-color: #6b1274;
+  align-content: center;
 }
 
 .portfolio-wrapper {
   margin-bottom: 20px;
 }
 
-.card-content-weather {
-height: 147px;
-}
-
-#work {
+#portfolio {
   margin-bottom: 90px;
 }
 
@@ -84,7 +89,7 @@ height: 147px;
   height: 300px;
 }
 
-#small-text {
+#text {
   font-weight: bold;
   font-size: 20px;
 }
@@ -103,31 +108,14 @@ height: 147px;
 }
 
 @media screen and (max-width: 740px) {
-  .profile-image-1 {
+  .profile {
     display: none;
-  }
-  .profile-image-2 {
-    width: 300px;
-    height: auto;
-    display: inline;
-    margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 599px) {
   .profile-image-1 {
     display: none;
-  }
-  .profile-image-2 {
-    width: 300px;
-    height: auto;
-    display: inline;
-    margin-top: 50px;
-  }
-
-  #about-me-card {
-    width:max-content;
-    align-self: center;
   }
 
   .navigation {
