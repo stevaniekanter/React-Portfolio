@@ -5,14 +5,14 @@ function AboutMe() {
             
         <div id="about-me" class="container">
             <div class="center-align col 6 offset-3">
-                <img id="profile-image" class="profile-image-2 responsive-img circle" src="https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/profilePicMe_1.jpg?raw=true" alt="Nicholas Zabkar" />
+                <img id="profile-image" class="profile-image-2 responsive-img circle" src="assets/image/stevanie.jpeg" alt="Stevanie Kanter" />
             </div>
             <h3 class="center-align light-blue-text text-darken-3">
             About Me 
             </h3>
             <section class="row valign-wrapper">
                 <div class="col s12 m3">
-                    <img id="profile-image" class="profile-image-1 responsive-img circle" src="https://github.com/CIDoubleAgent/Nicks-Web-Dev-Portfolio/blob/main/images/profilePicMe_1.jpg?raw=true" alt="Nicholas Zabkar" />
+                    <img id="profile-image" class="profile-image-1 responsive-img circle" src="assets/image/stevanie.jpeg" alt="Stevanie Kanter" />
                 </div>
                 <div id="about-me-card" class="center-align card col s12 m9">
                     <div class="bio">
