@@ -5,7 +5,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Navigation from './Navigation';
 
-export default function ContentContainer() {
+export default function Main() {
 
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
