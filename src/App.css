@@ -76,10 +76,14 @@ body::-webkit-scrollbar {
 #portfolio {
   margin-bottom: 90px;
 }
+#contact-text {
+  font-size: 25px;
+}
 
 #contact-me {
   margin-bottom: 100px;
 }
+
 
 #contact-info {
   margin-bottom: 20px;
