@@ -2,24 +2,26 @@ import React from 'react'
 
 function AboutMe() {
     return (
-            
+         
+
         <div id="about-me" class="container">
-            <div class="center-align col 6 offset-3">
-                <img id="profile-image" class="profile-image-2 responsive-img circle" src="assets/image/stevanie.jpeg" alt="Stevanie Kanter" />
-            </div>
-            <h3 class="center-align light-blue-text text-darken-3">
+            <h1 class="center-align purple-text text-darken-3" id="font"> Stevanie Kanter Portfolio </h1>
+            <h3 class="center-align purple-text text-darken-3">
             About Me 
             </h3>
-            <section class="row valign-wrapper">
-                <div class="col s12 m3">
-                    <img id="profile-image" class="profile-image-1 responsive-img circle" src="assets/image/stevanie.jpeg" alt="Stevanie Kanter" />
+            <div class="col s12 m3">
+                    <img class="profile-image responsive-img square" id="profile" src="https://github.com/stevaniekanter/React-Portfolio/blob/main/src/components/assets/image/stevanie.png?raw=true" alt="Stevanie Kanter" />
                 </div>
-                <div id="about-me-card" class="center-align card col s12 m9">
-                    <div class="bio">
-                    I am currently located in Somersworth, NH and I am a Technical Support Analyst at Amadeus Hospitality in Portsmouth, NH. 
+            <section>
+                <div class="center-align col s12 m9" id="about-me-1" >
+                    <p class="bio">
+                    I am currently located in Somersworth, NH and I'm working as a Technical Support Analyst at Amadeus Hospitality in Portsmouth, NH. 
                     I gratuated from the University of New Hampshire with a Bachelor in Hospitality Management and I have over 8 years of experience in the Hotel, Restaurant and Catering Industry. 
                     I enjoy meeting new people and are always eager to learn new things.
-                    I have a passion for the Hospitality industry but also I am intrigue by the Tech Industry, therefor I aspire to break into the tech world as a Developer.                    </div>
+                    I have a passion for the Hospitality industry but also I am intrigue by the Tech Industry, therefor I aspire to break into the tech world as a Front-End Developer.</p>
+                    <p>
+                    I am currently enrolled in the UNH Bootcamp course.
+                    </p>
                 </div>
             </section>
         </div>
