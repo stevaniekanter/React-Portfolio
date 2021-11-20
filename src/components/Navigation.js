@@ -16,7 +16,7 @@ function Navigation({ handlePageChange }) {
                     Contact
                 </button>
 
-                <a class="navbtn btn col 4 purple darken-3" id="text" href="assets/resume/resume.pdf" target="_blank" rel="noreferrer noopener" download>
+                <a class="navbtn btn col 4 purple darken-3" id="text" href="https://drive.google.com/file/d/1DS5YweBQg6nyEt-64xshdX91drIZfq15/view?usp=sharing" target="_blank" rel="noreferrer noopener" download>
                     Resume
                 </a>
             </nav>
