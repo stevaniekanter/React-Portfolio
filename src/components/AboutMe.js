@@ -13,7 +13,7 @@ function AboutMe() {
                     <img class="profile-image responsive-img square" id="profile" src="https://github.com/stevaniekanter/React-Portfolio/blob/main/src/components/assets/image/stevanie.png?raw=true" alt="Stevanie Kanter" />
                 </div>
             <section>
-                <div class="center-align col s12 m9" id="about-me-1" >
+                <div class="center-align col s12 m9 purple-text text-darken-3" id="about-me-1" >
                     <p class="bio">
                     I am currently located in Somersworth, NH and I'm working as a Technical Support Analyst at Amadeus Hospitality in Portsmouth, NH. 
                     I gratuated from the University of New Hampshire with a Bachelor in Hospitality Management and I have over 8 years of experience in the Hotel, Restaurant and Catering Industry. 
